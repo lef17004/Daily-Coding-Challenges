@@ -13,15 +13,7 @@ one) is needed to be compared until there are no more elements left to be
 compared (Wikipedia).
 """
 ###############################################################################
-
-def main():
-    list = [234, 64, 34, 25, 12, 22, 11, 90, 200]
-    
-    bubble_sort(list)
-    print(list)
-    
-    
-    
+        
 def bubble_sort(list):
     # Loop through every element in the array (skip the last one).
     for pass_number in range(0, len(list) - 1):
@@ -36,8 +28,6 @@ def swap(index1, index2, list):
     # This swaps the elements in the list at the given idexes. 
     list[index1], list[index2] = list[index2], list[index1]
     
-    
-main()
 
 
 
