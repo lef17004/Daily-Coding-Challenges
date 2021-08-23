@@ -16,6 +16,8 @@ Description: This function takes last element as pivot, places
 from swap import swap
 
 def partition(list, low, high):
+    if high == None:
+        high = len(list) - 1
 
     # The element that will be placed in the left position. 
     pivot = list[high]

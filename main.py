@@ -3,9 +3,10 @@ import merge_sort
 import reverse_list
 import rotate
 import partition
+import quick_sort
 
-list = [10, 80, 30, 90, 40, 50, 70]
+list = [6, 3, -10, 34, 78, 1, 6, 8, -9, 0]
 
-partition.partition(list, 0, 6)
+quick_sort.quick_sort(list, 0, len(list) - 1)
 
 print(list)
