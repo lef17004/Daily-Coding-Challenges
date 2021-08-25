@@ -4,9 +4,9 @@ import reverse_list
 import rotate
 import partition
 import quick_sort
+import missing_number2
 
-list = [6, 3, -10, 34, 78, 1, 6, 8, -9, 0]
+list = [1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15]
 
-quick_sort.quick_sort(list, 0, len(list) - 1)
+print(missing_number2.find_missing_element(list))
 
-print(list)
