@@ -1,7 +1,7 @@
 #!/usr/bin/swift
 
 /**********************************************************
-Anagram
+Int Swap with XOR
 8/29/2021 
 
 Swap the value of two integers without using a third value. 
