@@ -12,5 +12,6 @@
         <page name='LinkedList'/>
         <page name='Remove Dups'/>
         <page name='Return Kth to Last'/>
+        <page name='Delete Middle Node'/>
     </pages>
 </playground>
